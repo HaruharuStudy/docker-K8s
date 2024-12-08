@@ -1,0 +1,7 @@
+FROM python:3.11-alpine
+
+WORKDIR /app
+
+COPY ./tutorial/rng.py /app
+
+CMD ["python", "rng.py"]
